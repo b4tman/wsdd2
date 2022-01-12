@@ -5,7 +5,7 @@
 #	Copyright (c) 2016 Hiro Sugawara
 #
 
-CFLAGS        ?= -Wall -Wextra -g -O0
+CFLAGS        ?= -Wall -Wextra -g0 -O2 -flto -pipe -fomit-frame-pointer
 LDFLAGS       ?= -g
 OBJFILES      = wsdd2.o wsd.o llmnr.o
 HEADERS       = wsdd.h wsd.h
