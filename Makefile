@@ -6,7 +6,7 @@
 #
 
 CFLAGS        ?= -Wall -Wextra -g0 -O2 -flto -pipe -fomit-frame-pointer
-LDFLAGS       ?= -g
+LDFLAGS       ?= -s -flto
 OBJFILES      = wsdd2.o wsd.o llmnr.o
 HEADERS       = wsdd.h wsd.h
 
